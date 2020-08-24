@@ -668,7 +668,11 @@ input[type='checkbox'] {
         opacity: 1;
     }
 }
-
+@media only screen and (max-width: 600px){
+.img-fluid {
+    margin-top: -1.2rem !important;
+}
+}
 .navbar-custom .dropdown-toggle:focus { /* removes dropdown outline on focus  */
 	outline: 0;
 }
